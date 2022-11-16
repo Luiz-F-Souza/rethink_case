@@ -1,0 +1,55 @@
+.container_form{
+
+  margin-top: 2rem;
+}
+
+.container_form h2{
+  font-size: 2.2rem;
+  font-weight: 400;
+  margin-bottom: 1rem ;
+}
+
+.container_form .fieldset{
+  margin-bottom: 1rem;
+  background-color: rgba(0, 0, 0, 0.895);
+}
+.container_form .fieldset p{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  color: white;
+}
+
+.container_form .fieldset p label{
+  font-size: 1.6rem;
+  margin-bottom: .4rem;
+  
+}
+
+.container_form .fieldset p input{
+  padding: 1rem;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  background-color: transparent;
+  color: white;
+}
+
+.container_form .fieldset p input::placeholder{
+  color: rgba(255, 255, 255, 0.676);
+}
+
+.container_form .fieldset .success_msg{
+  display: none;
+  font-size: 2rem;
+  background-color: green;
+  text-align: center;
+}
+.container_form button{
+  width: 100%;
+  padding: 1rem;
+}
+
+.container_form button:hover{
+  cursor: pointer;
+}
